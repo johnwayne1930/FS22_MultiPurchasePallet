@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="64">
+	<author>johnwayne1930</author>
+	<version>1.0.0.0</version>
+	
+	<title>
+		<en>Multi-Purchase Pallet</en>
+		<!--<de>Mehrfachkauf-Palette</de>-->
+	</title>
+	
+	<description>
+	<en><![CDATA[
+Various pallets with purchase configuration for up to eight at a time.
+
+Seeds - Price: 950$/1050l
+Bonsilage Silage Additive - Price: 2990$/60l
+Poplar - Price: 280$/2000l
+Sugarcane - Price: 380$/2000l
+Mineral Feed - Price: 1000$/1050l
+Tree Saplings - Price: 1000$/20pc
+EPSO Top Liquid Fertilizer - Price: 9600$/6000l
+Patentkali Solid Fertilizer - Price: 1400$/750l]]></en>
+	<de><![CDATA[
+Diverse Paletten mit Kaufkonfiguration für bis zu acht Stück auf einmal.
+
+Saatgut - Preis: 950€/2000l
+Bonsilage Siliermittel - Preis: 2990€/60l
+Pappel - Preis: 280€/2000l
+Zuckerrohr - Preis: 380€/2000l
+Mineralfutter - Preis: 1000€/1050l
+Setzling - Preis: 1000€/20stk
+EPSOTop Flüssigdünger - Preis: 9600€/6000l
+Patentkali Mineraldünger - Preis: 1400€/750l]]></de>
+	</description>
+	
+	<iconFilename>icon_multiPurchasePallet.dds</iconFilename>
+	<multiplayer supported="true"/>
+	
+	<storeItems>
+		<storeItem xmlFilename="euroPalletsOversized/multiPurchasePallet_epsoTop.xml"/>
+		<storeItem xmlFilename="euroPalletsOversized/multiPurchasePallet_patentkali.xml"/>
+		<storeItem xmlFilename="euroPallets/multiPurchasePallet_poplar.xml"/>
+		<storeItem xmlFilename="euroPallets/multiPurchasePallet_sugarCane.xml"/>
+		<storeItem xmlFilename="euroPallets/multiPurchasePallet_treeSapling.xml"/>
+		<storeItem xmlFilename="euroPalletsOversized/multiPurchasePallet_pioneer.xml"/>
+		<storeItem xmlFilename="euroPallets/multiPurchasePallet_bonsilage.xml"/>
+		<storeItem xmlFilename="euroPalletsOversized/multiPurchasePallet_schaumann.xml"/>
+	</storeItems>
+</modDesc>

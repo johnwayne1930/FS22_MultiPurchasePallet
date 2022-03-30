@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="multipleItemPurchase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>$l10n_fillType_treeSaplings</name>
+        <specs>
+            <capacity unitTextOverride="$l10n_unit_pieces">20</capacity>
+            <fillTypes>treeSaplings</fillTypes>
+            <weight ignore="true"/>
+        </specs>
+        <functions>
+            <function>$l10n_function_saplingPallet</function>
+        </functions>
+        <image>$data/objects/pallets/treeSaplingPallet/store_pallet_saplings.png</image>
+        <price>1000</price>
+        <allowLeasing>false</allowLeasing>
+        <canBeSold>false</canBeSold>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <category>pallets</category>
+        <financeCategory>PURCHASE_SAPLINGS</financeCategory>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_typeDesc_pallet</typeDesc>
+        <filename>$data/objects/buyableBales/buyableBale.i3d</filename>
+        <size width="4" length="4" />
+        <components>
+            <component centerOfMass="0 0 0" solverIterationCount="10" mass="100"/>
+        </components>
+    </base>
+
+    <treeSaplingPallet>
+        <treeSaplingTypeConfigurations>
+            <treeSaplingTypeConfiguration treeType="spruce1" name="$l10n_treeType_spruce"/>
+            <treeSaplingTypeConfiguration treeType="pine" name="$l10n_treeType_pine"/>
+            <treeSaplingTypeConfiguration treeType="stonePine" name="$l10n_treeType_stonePine"/>
+            <treeSaplingTypeConfiguration treeType="birch" name="$l10n_treeType_birch"/>
+            <treeSaplingTypeConfiguration treeType="oak" name="$l10n_treeType_oak"/>
+            <treeSaplingTypeConfiguration treeType="willow1" name="$l10n_treeType_willow"/>
+            <treeSaplingTypeConfiguration treeType="maple" name="$l10n_treeType_maple"/>
+            <treeSaplingTypeConfiguration treeType="pagodaDogwood" name="$l10n_treeType_pagodaDogwood"/>
+            <treeSaplingTypeConfiguration treeType="shagbarkHickory" name="$l10n_treeType_shagbarkHickory"/>
+            <treeSaplingTypeConfiguration treeType="americanElm" name="$l10n_treeType_americanElm"/>
+            <treeSaplingTypeConfiguration treeType="cypress" name="$l10n_treeType_cypress"/>
+            <treeSaplingTypeConfiguration treeType="downyServiceberry" name="$l10n_treeType_downyServiceberry"/>
+        </treeSaplingTypeConfigurations>
+
+        <saplingNodes>
+            <saplingNode node="sapling01"/>
+            <saplingNode node="sapling02"/>
+            <saplingNode node="sapling03"/>
+            <saplingNode node="sapling04"/>
+            <saplingNode node="sapling05"/>
+            <saplingNode node="sapling06"/>
+            <saplingNode node="sapling07"/>
+            <saplingNode node="sapling08"/>
+            <saplingNode node="sapling09"/>
+            <saplingNode node="sapling10"/>
+            <saplingNode node="sapling11"/>
+            <saplingNode node="sapling12"/>
+            <saplingNode node="sapling13"/>
+            <saplingNode node="sapling14"/>
+            <saplingNode node="sapling15"/>
+            <saplingNode node="sapling16"/>
+            <saplingNode node="sapling17"/>
+            <saplingNode node="sapling18"/>
+            <saplingNode node="sapling19"/>
+            <saplingNode node="sapling20"/>
+        </saplingNodes>
+    </treeSaplingPallet>
+	
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypes="treeSaplings" capacity="20" />
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+
+    <multipleItemPurchase filename="$data/objects/pallets/treeSaplingPallet/treeSaplingPallet.xml" isVehicle="true">
+        <offsets>
+            <offset amount="2" offset="0.775 0 0"/>
+            <offset amount="3" offset="0.775 0 0.6"/>
+            <offset amount="5" offset="0.775 0 1.2"/>
+            <offset amount="7" offset="0.775 0 1.8"/>
+        </offsets>
+        <itemPositions>
+            <itemPosition position="0 0 0" rotation="0 0 0"/>
+            <itemPosition position="-1.35 0 0" rotation="0 0 0"/>
+            <itemPosition position="0 0 -0.90" rotation="0 0 0"/>
+            <itemPosition position="-1.35 0 -0.90" rotation="0 0 0"/>
+
+            <!--<itemPosition position="0 0 -1.80" rotation="0 0 0"/>-->
+            <!--<itemPosition position="-1.35 0 -1.80" rotation="0 0 0"/>-->
+            <!--<itemPosition position="0 0 -2.70" rotation="0 0 0"/>-->
+            <!--<itemPosition position="-1.35 0 -2.70" rotation="0 0 0"/>-->
+        </itemPositions>
+    </multipleItemPurchase>
+
+    <multipleItemPurchaseAmountConfigurations>
+        <multipleItemPurchaseAmountConfiguration name="1" price="0"/>
+        <multipleItemPurchaseAmountConfiguration name="2" price="1000"/>
+        <multipleItemPurchaseAmountConfiguration name="3" price="2000"/>
+        <multipleItemPurchaseAmountConfiguration name="4" price="3000"/>
+        <!--<multipleItemPurchaseAmountConfiguration name="5" price="4000"/>-->
+        <!--<multipleItemPurchaseAmountConfiguration name="6" price="5000"/>-->
+        <!--<multipleItemPurchaseAmountConfiguration name="7" price="6000"/>-->
+        <!--<multipleItemPurchaseAmountConfiguration name="8" price="7000"/>-->
+    </multipleItemPurchaseAmountConfigurations>
+</vehicle>

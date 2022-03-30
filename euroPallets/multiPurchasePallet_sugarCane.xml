@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="multipleItemPurchase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>$l10n_fillType_sugarCane</name>
+        <specs>
+            <weight ignore="true"/>
+        </specs>
+        <functions>
+            <function>$l10n_function_fillablePalletSugarCane</function>
+        </functions>
+        <image>$data/objects/pallets/palletSugarCane/store_palletSugarCane.png</image>
+        <price>380</price>
+        <allowLeasing>false</allowLeasing>
+        <canBeSold>false</canBeSold>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <category>pallets</category>
+        <financeCategory>PURCHASE_SEEDS</financeCategory>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_typeDesc_pallet</typeDesc>
+        <filename>$data/objects/buyableBales/buyableBale.i3d</filename>
+        <size width="4" length="4" />
+        <components>
+            <component centerOfMass="0 0 0" solverIterationCount="10" mass="100"/>
+        </components>
+    </base>
+
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit fillTypes="sugarCane" capacity="2000" />
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+
+    <multipleItemPurchase filename="$data/objects/pallets/palletSugarCane/palletSugarCane.xml" isVehicle="true">
+        <offsets>
+            <offset amount="2" offset="0.775 0 0"/>
+            <offset amount="3" offset="0.775 0 0.6"/>
+            <offset amount="5" offset="0.775 0 1.2"/>
+            <offset amount="7" offset="0.775 0 1.8"/>
+        </offsets>
+        <itemPositions>
+            <itemPosition position="0 0 0" rotation="0 0 0"/>
+            <itemPosition position="-1.35 0 0" rotation="0 0 0"/>
+            <itemPosition position="0 0 -0.90" rotation="0 0 0"/>
+            <itemPosition position="-1.35 0 -0.90" rotation="0 0 0"/>
+
+            <itemPosition position="0 0 -1.80" rotation="0 0 0"/>
+            <itemPosition position="-1.35 0 -1.80" rotation="0 0 0"/>
+            <itemPosition position="0 0 -2.70" rotation="0 0 0"/>
+            <itemPosition position="-1.35 0 -2.70" rotation="0 0 0"/>
+        </itemPositions>
+    </multipleItemPurchase>
+
+    <multipleItemPurchaseAmountConfigurations>
+        <multipleItemPurchaseAmountConfiguration name="1" price="0"/>
+        <multipleItemPurchaseAmountConfiguration name="2" price="380"/>
+        <multipleItemPurchaseAmountConfiguration name="3" price="760"/>
+        <multipleItemPurchaseAmountConfiguration name="4" price="1140"/>
+        <multipleItemPurchaseAmountConfiguration name="5" price="1520"/>
+        <multipleItemPurchaseAmountConfiguration name="6" price="1900"/>
+        <multipleItemPurchaseAmountConfiguration name="7" price="2280"/>
+        <multipleItemPurchaseAmountConfiguration name="8" price="2660"/>
+    </multipleItemPurchaseAmountConfigurations>
+</vehicle>
