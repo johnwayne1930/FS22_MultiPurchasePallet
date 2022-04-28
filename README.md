@@ -11,5 +11,5 @@ _%\Documents\My Games\FarmingSimulator2022\mods_ directory
 * activate the mod ingame
 
 #### Installation ModHub:
-* download [Multi-Purchase Pallet (johnwayne1930)]() from the ingame Modhub
+* download [Multi-Purchase Pallet (johnwayne1930)](https://farming-simulator.com/mod.php?mod_id=241807) from the ingame Modhub
 * activate the mod ingame
