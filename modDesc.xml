@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="64">
+<modDesc descVersion="65">
 	<author>johnwayne1930</author>
-	<version>1.0.0.0</version>
+		<coauthor>RGB (Filltype Icons Decal Prefab)</coauthor>
+	<version>1.1.0.0</version>
 	
 	<title>
 		<en>Multi-Purchase Pallet</en>
-		<!--<de>Mehrfachkauf-Palette</de>-->
+		<de>Mehrfachkauf-Paletten</de>
 	</title>
 	
 	<description>
@@ -19,7 +20,17 @@ Sugarcane - Price: 380$/2000l
 Mineral Feed - Price: 1000$/1050l
 Tree Saplings - Price: 1000$/20pc
 EPSO Top Liquid Fertilizer - Price: 9600$/6000l
-Patentkali Solid Fertilizer - Price: 1400$/750l]]></en>
+Patentkali Solid Fertilizer - Price: 1400$/750l
+liquid Fertilizer - Price: 3200$/2000l
+Herbicide - Price: 2400$/2000l
+Diesel - Price: 2000$/2000l
+Water - Price: 200$/2000l
+Milk - Price: 6000$/2000l
+Digestate - Price: 1000$/2000l
+
+Changelog:
+1.1.0.0
+- added Lizard IBC for liquid-Fertilizer, Herbicide, Diesel, Water, Milk, Digestate]]></en>
 	<de><![CDATA[
 Diverse Paletten mit Kaufkonfiguration für bis zu acht Stück auf einmal.
 
@@ -30,8 +41,45 @@ Zuckerrohr - Preis: 380€/2000l
 Mineralfutter - Preis: 1000€/1050l
 Setzling - Preis: 1000€/20stk
 EPSOTop Flüssigdünger - Preis: 9600€/6000l
-Patentkali Mineraldünger - Preis: 1400€/750l]]></de>
+Patentkali Mineraldünger - Preis: 1400€/750l
+Flüssigdünger - Preis: 3200€/2000l
+Herbizid - Preis: 2400€/2000l
+Diesel - Preis: 2500€/2000l
+Wasser - Preis: 200€/2000l
+Milch - Preis: 6000€/2000l
+Gärreste - Preis: 1000€/2000l
+
+Changelog:
+1.1.0.0
+- Lizard IBC für Flüssigdünger, Herbizid, Diesel, Wasser, Milch, Gärreste hinzugefügt]]></de>
 	</description>
+
+	<l10n>
+		<text name="fillType_dieselTank">
+			<en>Diesel</en>
+			<de>Diesel</de>
+		</text>
+		<text name="fillType_digestateTank">
+			<en>Digestate</en>
+			<de>Gärreste</de>
+		</text>
+		<text name="function_digestateTank">
+			<en>A tank of liquid digestate to fertilize the fields. Can be used to fill up slurry tanks.</en>
+			<de>Ein Tank mit flüssigen Gärresten zur Düngung der Felder. Kann zum auffüllen von Güllefässer verwendet werden.</de>
+		</text>
+		<text name="fillType_milkTank">
+			<en>Milk</en>
+			<de>Milch</de>
+		</text>
+		<text name="function_milkTank">
+			<en>A tank of milk for production. Can be loaded into a suitable liquid tank truck.</en>
+			<de>Ein Tank mit Milch für die Produktion. Kann in einen passenden Tankwagen überladen werden.</de>
+		</text>
+		<text name="fillType_waterTank">
+			<en>Water</en>
+			<de>Wasser</de>
+		</text>
+	</l10n>
 	
 	<iconFilename>icon_multiPurchasePallet.dds</iconFilename>
 	<multiplayer supported="true"/>
@@ -45,5 +93,17 @@ Patentkali Mineraldünger - Preis: 1400€/750l]]></de>
 		<storeItem xmlFilename="euroPalletsOversized/multiPurchasePallet_pioneer.xml"/>
 		<storeItem xmlFilename="euroPallets/multiPurchasePallet_bonsilage.xml"/>
 		<storeItem xmlFilename="euroPalletsOversized/multiPurchasePallet_schaumann.xml"/>
+		<storeItem xmlFilename="liquidTank/multiPurchaseTank_fertilizer.xml"/>
+		<storeItem xmlFilename="liquidTank/tank_fertilizer.xml"/>
+		<storeItem xmlFilename="liquidTank/multiPurchaseTank_herbicide.xml"/>
+		<storeItem xmlFilename="liquidTank/tank_herbicide.xml"/>
+		<storeItem xmlFilename="liquidTank/multiPurchaseTank_diesel.xml"/>
+		<storeItem xmlFilename="liquidTank/tank_diesel.xml"/>
+		<storeItem xmlFilename="liquidTank/multiPurchaseTank_water.xml"/>
+		<storeItem xmlFilename="liquidTank/tank_water.xml"/>
+		<storeItem xmlFilename="liquidTank/multiPurchaseTank_digestate.xml"/>
+		<storeItem xmlFilename="liquidTank/tank_digestate.xml"/>
+		<storeItem xmlFilename="liquidTank/multiPurchaseTank_milk.xml"/>
+		<storeItem xmlFilename="liquidTank/tank_milk.xml"/>
 	</storeItems>
 </modDesc>
