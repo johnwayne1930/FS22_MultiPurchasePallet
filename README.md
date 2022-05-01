@@ -1,4 +1,4 @@
-# FS22_MultiPurchasePallet v1.0.0.0
+# FS22_MultiPurchasePallet v1.1.0.0
 Mod for Farming Simulator 22 
 
 #### Description
