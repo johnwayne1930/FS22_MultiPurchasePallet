@@ -40,7 +40,7 @@
     <treeSaplingPallet>
         <treeSaplingTypeConfigurations>
             <treeSaplingTypeConfiguration treeType="spruce1" name="$l10n_treeType_spruce"/>
-            <treeSaplingTypeConfiguration treeType="pine" name="$l10n_treeType_pine"/>
+            <!-- <treeSaplingTypeConfiguration treeType="pine" name="$l10n_treeType_pine"/>
             <treeSaplingTypeConfiguration treeType="stonePine" name="$l10n_treeType_stonePine"/>
             <treeSaplingTypeConfiguration treeType="birch" name="$l10n_treeType_birch"/>
             <treeSaplingTypeConfiguration treeType="oak" name="$l10n_treeType_oak"/>
@@ -50,7 +50,7 @@
             <treeSaplingTypeConfiguration treeType="shagbarkHickory" name="$l10n_treeType_shagbarkHickory"/>
             <treeSaplingTypeConfiguration treeType="americanElm" name="$l10n_treeType_americanElm"/>
             <treeSaplingTypeConfiguration treeType="cypress" name="$l10n_treeType_cypress"/>
-            <treeSaplingTypeConfiguration treeType="downyServiceberry" name="$l10n_treeType_downyServiceberry"/>
+            <treeSaplingTypeConfiguration treeType="downyServiceberry" name="$l10n_treeType_downyServiceberry"/> -->
         </treeSaplingTypeConfigurations>
 
         <saplingNodes>

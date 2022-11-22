@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<l10n>
+    <translationContributors>nagor</translationContributors>
+    <texts>
+        <text name="fillType_dieselTank" text="Дизельное топливо" />
+        <text name="fillType_digestateTank" text="Дигестат" />
+        <text name="function_digestateTank" text="Резервуар с жидким дигестатом для удобрения полей. Может использоваться для заполнения резервуаров для навозной жижи." />
+        <text name="fillType_milkTank" text="Молоко" />
+        <text name="function_milkTank" text="Резервуар молока для производства. Возможна загрузка в подходящую автоцистерну." />
+        <text name="fillType_waterTank" text="Вода" />
+    </texts>
+</l10n>

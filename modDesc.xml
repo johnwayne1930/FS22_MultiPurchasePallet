@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="65">
+<modDesc descVersion="72">
 	<author>johnwayne1930</author>
 		<coauthor>RGB (Filltype Icons Decal Prefab)</coauthor>
-	<version>1.1.0.0</version>
+	<version>1.1.1.0</version>
 	
 	<title>
 		<en>Multi-Purchase Pallet</en>
@@ -23,12 +23,17 @@ EPSO Top Liquid Fertilizer - Price: 9600$/6000l
 Patentkali Solid Fertilizer - Price: 1400$/750l
 Liquid Fertilizer - Price: 3200$/2000l
 Herbicide - Price: 2400$/2000l
-Diesel - Price: 2000$/2500l
+Diesel - Price: 2500$/2000l
 Water - Price: 200$/2000l
 Milk - Price: 6000$/2000l
 Digestate - Price: 1000$/2000l
 
 Changelog:
+1.1.1.0
+- Tree sapling configuration deactivated, only spruce for now
+- updated description
+- RU translation added
+
 1.1.0.0
 - added Lizard IBC for liquid-Fertilizer, Herbicide, Diesel, Water, Milk, Digestate]]></en>
 	<de><![CDATA[
@@ -50,11 +55,18 @@ Milch - Preis: 6000€/2000l
 Gärreste - Preis: 1000€/2000l
 
 Changelog:
+1.1.1.0
+- Baumsetzling konfiguration deaktiviert, vorerst nur Fichten
+- Beschreibung angepasst
+- RU übersetzung hinzugefügt
+
 1.1.0.0
 - Lizard IBC für Flüssigdünger, Herbizid, Diesel, Wasser, Milch, Gärreste hinzugefügt]]></de>
 	</description>
 
-	<l10n>
+    <l10n filenamePrefix="localization/l10n"/>
+
+	<!-- <l10n>
 		<text name="fillType_dieselTank">
 			<en>Diesel</en>
 			<de>Diesel</de>
@@ -79,7 +91,7 @@ Changelog:
 			<en>Water</en>
 			<de>Wasser</de>
 		</text>
-	</l10n>
+	</l10n> -->
 	
 	<iconFilename>icon_multiPurchasePallet.dds</iconFilename>
 	<multiplayer supported="true"/>

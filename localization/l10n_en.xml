@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<l10n>
+    <!-- <translationContributors></translationContributors> -->
+    <texts>
+        <text name="fillType_dieselTank" text="Diesel" />
+        <text name="fillType_digestateTank" text="Digestate" />
+        <text name="function_digestateTank" text="A tank of liquid digestate to fertilize the fields. Can be used to fill up slurry tanks." />
+        <text name="fillType_milkTank" text="Milk" />
+        <text name="function_milkTank" text="A tank of milk for production. Can be loaded into a suitable liquid tank truck." />
+        <text name="fillType_waterTank" text="Water" />
+    </texts>
+</l10n>
