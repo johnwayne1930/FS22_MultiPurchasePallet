@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<l10n>
+    <!-- <translationContributors></translationContributors> -->
+    <texts>
+        <text name="fillType_dieselTank" text="Diesel" />
+        <text name="fillType_digestateTank" text="Gärreste" />
+        <text name="function_digestateTank" text="Ein Tank mit flüssigen Gärresten zur Düngung der Felder. Kann zum auffüllen von Güllefässer verwendet werden." />
+        <text name="fillType_milkTank" text="Milch" />
+        <text name="function_milkTank" text="Ein Tank mit Milch für die Produktion. Kann in einen passenden Tankwagen überladen werden." />
+        <text name="fillType_waterTank" text="Wasser" />
+    </texts>
+</l10n>
